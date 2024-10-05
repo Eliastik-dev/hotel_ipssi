@@ -1,21 +1,21 @@
 
     <h2 class="text-center">Ajouter Chambres</h2>
 
-    <form method="post" action="" enctype="multipart/form-data">
+    <form id="formAjoutChambre" method="post" action="" enctype="multipart/form-data">
         
         <div class="form-group">
             <label for="">Prix</label>
-            <input type="text" class="form-control" name="prix">
+            <input type="text" class="form-control" name="prix" id="prix">
         </div>
 
         <div class="form-group">
             <label for="">Nombre lits</label>
-            <input type="text" class="form-control" name="nbLits">
+            <input type="text" id="nbLits" class="form-control" name="nbLits">
         </div>
 
         <div class="form-group">
             <label for="">Capacité</label>
-            <input type="text" class="form-control" name="nbPers">
+            <input type="text" class="form-control" name="nbPers" id="nbPers">
         </div>
 
         <div class="form-group">
