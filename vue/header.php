@@ -11,7 +11,7 @@
 
     <header class="p-4 bg-secondary mb-3">
 
-        <h1 class=" text-center"><a href=".">Gestion Hôtellerie</a></h1>
+        <h1 class=" text-center"><a href="../index.php">Gestion Hôtellerie</a></h1>
 
         <?php  if(isset($_SESSION['user'])): ?>
 
